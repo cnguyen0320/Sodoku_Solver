@@ -30,14 +30,15 @@ td.restricted{
     border-radius: 4px;
     background-color: lightgray;
     padding: 2px 6px;
-    margin: 1px
+    margin: 1px;
+    cursor: default;
 }
 
 .buttons{
     text-align: center;
 }
 .hidden{
-    display: inline;
+    display: none;
 }
 .container{
     max-width: 600px;
