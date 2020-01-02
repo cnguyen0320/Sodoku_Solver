@@ -24,15 +24,20 @@ td.restricted{
     background: lightgreen !important;
 }
 
-button{
+.button{
     font-size: 1.25em;
+    border: 1px solid;
+    border-radius: 4px;
+    background-color: lightgray;
+    padding: 2px 6px;
+    margin: 1px
 }
 
 .buttons{
     text-align: center;
 }
 .hidden{
-    display: none;
+    display: inline;
 }
 .container{
     max-width: 600px;
@@ -52,9 +57,9 @@ body {
       linear-gradient(to bottom, lightgreen 2px, honeydew 1px);
 }
 #solve{
-    background-color: lightgreen;
-    width: 3.5em
+    background-color: lightgreen !important;
+    width: 3.5em;
 }
 #set{
-    width: 3.5em
+    padding: 2px 1em;
 }

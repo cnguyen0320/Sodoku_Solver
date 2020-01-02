@@ -69,12 +69,12 @@ function set(){
  */
 function show_solve(show){
     if(show){ //showing solve
-        document.getElementById("set").className = "hidden"
-        document.getElementById("solve").className = ""
+        document.getElementById("set").className = "hidden button"
+        document.getElementById("solve").className = "button"
     }
     else{ //showing set
-        document.getElementById("set").className = ""
-        document.getElementById("solve").className = "hidden"
+        document.getElementById("set").className = "button"
+        document.getElementById("solve").className = "hidden button"
     }
 }
 
