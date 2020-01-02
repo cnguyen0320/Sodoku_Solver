@@ -6,7 +6,7 @@ td {
   width:30px;
   border:1px solid;
   text-align:center;
-  
+  background: white;
 }
 td:first-child {
   border-left:solid;
@@ -19,4 +19,42 @@ tr:first-child {
 }
 tr:nth-child(3n) td {
   border-bottom:solid ;
+}
+td.restricted{
+    background: lightgreen !important;
+}
+
+button{
+    font-size: 1.25em;
+}
+
+.buttons{
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
+.container{
+    max-width: 600px;
+    padding:16px 16px;
+    padding-top: 24px!important;
+	padding-bottom: 24px!important;
+    margin: 10px auto;
+    background: white;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+body {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, lightgreen 2px, transparent 1px),
+      linear-gradient(to bottom, lightgreen 2px, honeydew 1px);
+}
+#solve{
+    background-color: lightgreen;
+    width: 3.5em
+}
+#set{
+    width: 3.5em
 }

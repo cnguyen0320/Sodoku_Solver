@@ -1,0 +1,136 @@
+<head>
+    <title>Sodoku Solver</title>
+    <link rel="stylesheet" type ="text/css" href="main.css">
+    <script src="Sodoku_Solver.js"></script>
+</head>
+<body onload="initialize()">
+    <div class="container">
+        <h1 class="title">Sodoku Solver</h1>
+    
+
+        <table id= "board">
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+            <tr>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+                <td contenteditable='true'></td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <button id= "set" onclick="set()"> Set </button>
+            <button id = "solve" onclick="solve()">Solve</button>
+            <button onclick="randomize()">Randomize</button>
+            <button onclick="clear_board()">Clear</button>
+        </div>
+    
+    </div>
+    <div class = "container">
+        <h2>How to use</h2>
+        <p>
+            This solver will help you solve Sodoku puzzles. 
+            Enter your puzzle into a clear board and select "Set" to lock in the puzzle's initial state.
+        </p>
+        <p>
+            Once the starting puzzle is set, select "Solve" to solve the puzzle.
+        </p>
+
+        <h2>Generating new boards</h2>
+        <p>
+            Select "Randomize" to generate a randomized Sodoku board for which you may practice on.
+        </p>
+    </div>
+    
+</body>
